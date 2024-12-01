@@ -18,7 +18,7 @@ CLIENT = InferenceHTTPClient(
 result = CLIENT.infer("YOUR_IMAGE.jpg", model_id="final-final-3/1")
 
 ```
-
+## First we need to run Video_img_cord.py and then ROI.py
 # video_img_cord.py
 
 - converting video into the frames and then their bounding box co-ordinates . this will be saved in 2 different folders . These folders will be further used in ROI.py
